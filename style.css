@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    height: 50px;
+}
+
+.group-header {
+    background-color: #444444;
+    height: 50px;
+    width: 20%;
+}
+
+.group {
+    background-color: #cccccc;
+    font-weight: bold;
+    width: 20%;
+}
+
+.surname {
+    background-color: #aaaaaa;
+    font-weight: bold;
+    width: 25%;
+}
+
+.name {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    width: 25%;
+}
+
+.lab-info {
+    background-color: #d3d3d3;
+    width: 25%;
+}
+
+.patronymic {
+    background-color: #888888;
+    font-weight: bold;
+    width: 30%;
+}
+
+.full-border {
+    border: 1px solid black;
+    height: 50px;
+}
+
+.empty-no-right {
+    border-right: none;
+}
+
+.empty-no-border {
+    border-left: none;
+    border-right: none;
+}
+
+.empty-no-left {
+    border-left: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.shapes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 70%;
+    position: relative;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #f4a261; /* Кофейний колір */
+    box-shadow: 0 0 0 5px black, 0 0 0 10px #f4a261, 0 0 0 15px black; /* Подвійна межа */
+    opacity: 0.9;
+}
+
+/* Ліві фігури */
+.shape:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.shape:nth-child(2) {
+    top: 30px;
+    left: 30px;
+    background-color: #e9c46a; /* Фіолетовий колір */
+    box-shadow: 0 0 0 5px black, 0 0 0 10px #e9c46a, 0 0 0 15px black;
+}
+
+/* Праві фігури */
+.shape:nth-child(3) {
+    top: 0;
+    right: 20px;
+}
+
+.shape:nth-child(4) {
+    top: 30px;
+    right: 50px;
+    background-color: #e9c46a; /* Фіолетовий колір */
+    box-shadow: 0 0 0 5px black, 0 0 0 10px #e9c46a, 0 0 0 15px black;
+}
